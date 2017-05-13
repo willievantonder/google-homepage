@@ -10,3 +10,10 @@ body {
     position: relative;
     top: 100px;
 }
+
+input {
+  width: 585px;
+  height: 44px;
+  position: relative;
+  top: 115px;
+}
