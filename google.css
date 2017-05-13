@@ -1,0 +1,12 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 100px;
+}
