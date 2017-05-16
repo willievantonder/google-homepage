@@ -1,19 +1,45 @@
-body {
-  background-color: #FFF;
+* {
+  box-sizing: border-box; /*This helps with the dimensional issue of borders.*/
   margin: 0;
   padding: 0;
+  /*border: 1px solid black; Comment this out at the end.*/
 }
 
-.logo {
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 100px;
+.main {
+ text-align: center;
+ width: 100%;
+ position: relative;
+ top: 160px;
+}
+
+#logo {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.sa{
+ width: 100px;
+ height: 20px;
+ position: relative;
+ left: 227px;
+ top: -47px;
+}
+
+p {
+ text-align: left;
+ font: 16px/16px roboto-regular, arial, sans-serif;
+ color: #4285f4;
 }
 
 input {
-  width: 585px;
-  height: 44px;
-  position: relative;
-  top: 115px;
+  width: 500px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 5px;
+	border: 2px solid #d9d9d9;
+	border-radius: 3px;
+  background-image: url(images/mic.png);
+  background-position: 96%;
+	background-repeat: no-repeat;
+	background-size: 25px;
 }
